@@ -24,7 +24,7 @@ do {
 
 function doWhileLoop (arr) {
   do {
-    delete arr.[arr.length - 1]
+    delete arr.
   }
   while (arr.length > 0 && maybeTrue() === true);
   return arr;
