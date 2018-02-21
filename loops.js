@@ -15,6 +15,17 @@ function whileLoop (num) {
  return 'done';
 }
 
-function doWhileLoop () {
-  
+function maybeTrue() {
+  return Math.random() >= 0.5
 }
+do {
+  console.log('doo-bee-doo-bee-doo')
+} while (maybeTrue());
+
+function doWhileLoop (arr) {
+  do {
+    delete 
+  }
+  while (arr.length > 0 && maybeTrue());
+}
+ 
